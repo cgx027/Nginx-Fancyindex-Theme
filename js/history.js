@@ -42,6 +42,7 @@ if (!!(window.history && history.pushState)) {
           breadcrumbs += '<a href="' + currentPath + '">Root<\/a>';
         }
       }
+        breadcrumbs += '<h3>' + loc + '</>'
       document.getElementById('breadcrumbs').innerHTML = breadcrumbs;
     }, 500);
   };

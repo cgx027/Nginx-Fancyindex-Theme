@@ -65,7 +65,7 @@ html, body {
   background: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f7f7f7));
   background: -webkit-linear-gradient(top,#fff,#f7f7f7);
   background: linear-gradient(top,#fff,#f7f7f7);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   height: 45px;
   font-size: 16px;
   border-bottom: 1px solid #d9d6d6;
@@ -463,4 +463,11 @@ a:hover {
   #list a[href$=".wmv"]:before {
           background: url('../icons/video.png') left center no-repeat;
   }
+}
+
+/* customized */
+.full-link {
+    margin-left: 0.5rem;
+    color: gray;
+    line-height: 1.5rem;
 }
