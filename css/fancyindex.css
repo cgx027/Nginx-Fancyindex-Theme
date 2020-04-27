@@ -105,13 +105,13 @@ html, body {
 
 .breadcrumbs a:after {
   display: block;
-  content: '';
+  content: '>';
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -10px;
+  top: 8px;
   bottom: 0;
   width: 20px;
-  background: url(../images/breadcrumb.png) no-repeat center right;
+  /* background: url(../images/breadcrumb.png) no-repeat center right; */
 }
 
 .breadcrumbs a:hover {
