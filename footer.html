@@ -15,7 +15,8 @@
       breadcrumbs += '<a href="' + currentPath + '">Root<\/a>';
     }
   }
-  breadcrumbs += '<p class="full-link">' + loc + '</>'
+  // added by Ted Chen(tedc@vmware.com)
+  breadcrumbs += '<p class="full-link">' + decodeURIComponent(loc) + '</>'
   document.getElementById('breadcrumbs').innerHTML = breadcrumbs;
 </script>
 <script src="/fancyindex/js/history.js"></script>
